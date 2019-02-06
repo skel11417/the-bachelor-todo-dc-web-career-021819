@@ -4,6 +4,7 @@ def get_first_name_of_season_winner(data, season)
     if season_key == key
       "Tessa"
     end
+  end
 end
 
 def get_contestant_name(data, occupation)

@@ -1,6 +1,6 @@
 require 'pry'
 
-def get_season(season)
+def get_season(data, season)
   # returns a hash with all the season data
   
 end

@@ -1,7 +1,7 @@
 require 'pry'
 def get_first_name_of_season_winner(data, season)
   data.each do |season_key, data|
-    if season_key == key
+    if season_key == season
       "Tessa"
     end
   end

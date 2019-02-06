@@ -15,7 +15,10 @@ end
 def get_first_name_of_season_winner(data, season)
   # output = ""
   contestants = get_contestants(data, season)
-  contestants.each 
+  contestants.each do |contestant|
+    if contestant["status"] == "Winner"
+      return first_name(contestant["name"])
+    end
   binding.pry
   # output
   "Tessa"

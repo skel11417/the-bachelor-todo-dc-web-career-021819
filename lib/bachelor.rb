@@ -5,7 +5,7 @@ def get_season(data, season)
   output = nil
   data.each do |season_key, data|
     if season_key == season
-      
+      output = data
     end
   end
   output

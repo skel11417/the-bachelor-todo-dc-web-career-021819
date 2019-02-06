@@ -59,4 +59,6 @@ def get_average_age_for_season(data, season)
   contestants.each do |contestant|
     ages << contestant["age"].to_i
   end
+  
+  
 end

@@ -1,4 +1,11 @@
 require 'pry'
+
+def get_season(season)
+  # returns a hash with all the season data
+  
+end
+
+
 def get_first_name_of_season_winner(data, season)
   output = ""
   data.each do |season_key, data|

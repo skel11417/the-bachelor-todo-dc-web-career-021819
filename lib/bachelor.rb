@@ -13,7 +13,7 @@ end
 
 def first_name(name)
   name_a = name.split(" ")
-  f_name
+  name_a[0]
 end
 
 def get_first_name_of_season_winner(data, season)

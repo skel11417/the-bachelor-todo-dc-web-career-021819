@@ -11,6 +11,9 @@ def get_contestants(data, season)
   output
 end
 
+def first_name(name)
+  f_name = name.split(" ")
+end
 
 def get_first_name_of_season_winner(data, season)
   contestants = get_contestants(data, season)

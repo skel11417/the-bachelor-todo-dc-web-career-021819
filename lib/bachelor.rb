@@ -27,6 +27,7 @@ end
 
 def get_contestant_name(data, occupation)
   # code here
+  contestants = get_contestants(data)
 end
 
 def count_contestants_by_hometown(data, hometown)

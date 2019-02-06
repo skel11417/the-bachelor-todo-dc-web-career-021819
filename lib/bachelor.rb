@@ -60,5 +60,5 @@ def get_average_age_for_season(data, season)
     ages << contestant["age"].to_f
   end
   average = ages.inject(0, :+) / ages.length
-  
+  average
 end

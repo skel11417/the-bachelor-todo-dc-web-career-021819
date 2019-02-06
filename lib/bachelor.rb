@@ -2,7 +2,13 @@ require 'pry'
 
 def get_season(data, season)
   # returns a hash with all the season data
-  
+  output = nil
+  data.each do |season_key, data|
+    if season_key == season
+      
+    end
+  end
+  output
 end
 
 

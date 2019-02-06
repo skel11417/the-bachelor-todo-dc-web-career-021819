@@ -1,6 +1,6 @@
 require 'pry'
 
-def get_season(data, season)
+def get_contestants(data, season)
   # returns a hash with all the season data
   output = nil
   data.each do |season_key, data|

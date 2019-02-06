@@ -14,7 +14,7 @@ end
 
 def get_first_name_of_season_winner(data, season)
   output = ""
-  get_season(data, season)
+  contestants = get_season(data, season)
   output
 end
 

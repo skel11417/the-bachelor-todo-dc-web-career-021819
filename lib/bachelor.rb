@@ -13,8 +13,9 @@ end
 
 
 def get_first_name_of_season_winner(data, season)
-  output = ""
+  # output = ""
   contestants = get_contestants(data, season)
+  contestants.each 
   binding.pry
   output
   "Tessa"

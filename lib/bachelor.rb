@@ -27,7 +27,8 @@ end
 
 def get_contestant_name(data, occupation)
   # code here
-  contestants = get_contestants(data)
+  data.each do |seasons, contestants|
+    
 end
 
 def count_contestants_by_hometown(data, hometown)
